@@ -14,6 +14,9 @@ Create virtual env and install packages:
 # Mac/Linux
 source venv/bin/activate
 pip install -r requirements.txt
+
+# Max ARM core (M1, M2, M3)
+brew install cbc
 ```
 ```bash
 python task1_production_optimization.py
